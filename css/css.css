@@ -1,0 +1,111 @@
+html, body{
+  color:#333;
+  height: 100%;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+  height: 100%
+}
+.he100{
+  height: 100%;
+}
+.top{
+  height: 500px;
+}
+.imgtop{
+  background: url(../img/tlotop.jpg) no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+  top: 0px;
+  background-position: 50% 0;
+}
+.logotop{
+  /*background: url(../img/logo.png) no-repeat center;*/
+  background-size: contain;
+  position: absolute;
+  z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  left: 0;
+  right: 0;
+  text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);;
+}
+.logotop h1{
+  margin-top: 150px;
+  font-size: 74px;
+  color: #fff;
+}
+.logotop h2{
+margin-top: -20px;
+letter-spacing: -3px;
+margin-left: -5px;
+color: #fff;
+}
+.bottom{
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1000;
+  background: #fff;
+}
+.nav-bar{
+  margin-bottom: 0;
+  font-size: 20px;
+  background: #fff;
+  border-bottom: #f0b334 solid 2px;
+}
+.navbar2{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+.navbar2 .button{
+  border: #f0b334 solid 1px;
+  border-radius: 10px;
+}
+.button{
+  background: #fff;
+  border: #f0b334 solid 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: 'Merriweather', serif;
+  color: #f0b334;
+  cursor: pointer;
+  float: none;
+  border-radius: 10px;
+  -webkit-transition: all 200ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -moz-transition: all 200ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -o-transition: all 200ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  transition: all 200ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+}
+.button:hover{
+  background: #f0b334;
+  color: #fff;
+  -webkit-transition: all 200ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -moz-transition: all 200ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -o-transition: all 200ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  transition: all 200ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+}
+
+.main{
+  min-height: 100%;
+}
+.np{
+padding-left: 0;
+padding-right: 0;
+}
+#logo2{
+  background: #f0b334;
+}
